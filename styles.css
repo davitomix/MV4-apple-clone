@@ -10,6 +10,7 @@
 	clear: both;
 }
 
+/* /* Parent lvl 0 or Master Parent */
 body{
     background-color: antiquewhite;
     min-width: 1349px;
@@ -19,6 +20,8 @@ body{
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Lucida Sans Regular", Geneva, Verdana, sans-serif;
 }
 
+
+/* Parent lvl 1*/
 header{
     background-color: burlywood;
     height: 538px;
@@ -26,7 +29,7 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
-
+/* Parent lvl 2 */
 header > nav{
     position: relative;
     width: 980px;
@@ -45,12 +48,15 @@ header > nav{
     border: 1px solid rgb(109, 109, 109);
 }
 
+/* Parent lvl 3*/
 #header-nav-ul{
     float: left;
     width: 100%;
     height: 100%;
 }
 
+/* Parent lvl 4 */
+/* Child lvl 3*/
 .h-nav-item{
     float: left;
     width: 10.8%;
@@ -62,6 +68,7 @@ header > nav{
     cursor: pointer;
 }
 
+/* Childs lvl 4 */
 #apple{
     position: relative;
     top: 20.5%;
@@ -77,7 +84,10 @@ header > nav{
     right: auto;
     font-size: 13.25px;
 }
+/* --------------- */
 
+/* Parent lvl 4 */
+/* Child lvl 3*/
 .last-h-nav-item{
     float: left;
     height: 100%;
@@ -86,6 +96,7 @@ header > nav{
     width: 13.6%;
 }
 
+/* Child lvl 4 */
 .last-h-nav-item > input{
     position: relative;
     width: 104px;
@@ -108,7 +119,10 @@ header > nav{
     top: 11px;
     cursor: pointer;
 }
+/* --------------- */
 
+
+/* Parent lvl 1*/
 aside{
     background-color: rgb(223, 169, 99);
     height: 200px;
@@ -116,6 +130,7 @@ aside{
     margin: 0 auto;
 }
 
+/* Parent lvl 1*/
 footer{
     background-color: rgb(221, 158, 76);
     height: 90px;
