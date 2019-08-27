@@ -78,18 +78,18 @@ header > nav{
     font-size: 13.25px;
 }
 
-#last-h-nav-item{
+.last-h-nav-item{
     float: left;
     width: 13.6%;
     height: 100%;
-    padding-right: 1px solid rgba(75, 75, 75, 0.5);
+    margin-right: 1px solid rgba(75, 75, 75, 0.5);
     color: rgba(255, 255, 255, 0.9);
     text-shadow: 0 0 1px rgba(0, 0, 0, 0.753),
     1px 1px 1px rgba(66, 66, 66, 0.651);
     cursor: pointer;
 }
 
-nav > ul > li > input{
+.last-h-nav-item > input{
     position: relative;
     width: 104px;
     height: 22px;
@@ -102,7 +102,7 @@ nav > ul > li > input{
     transition: all 0.3s ease-in-out;
 }
 
-#search{
+.last-h-nav-item > svg{
     width: 14px;
     height: 13px;
     position: absolute;
