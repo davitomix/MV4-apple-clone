@@ -14,7 +14,7 @@
 	clear: both;
 }
 
-/* /* Parent lvl 0 or Master Parent */
+/* Parent lvl 0 or Master Parent */
 body{
     background-color: antiquewhite;
     min-width: 1349px;
@@ -28,12 +28,23 @@ body{
 
 /* Parent lvl 1*/
 header{
-    background-color: burlywood;
     height: 538px;
     width: 1349px;
     margin-left: auto;
     margin-right: auto;
+    /* Background IMG */
+    background: url("./assets/your_verse_hero.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
 }
+
+.header-container{
+  background-color: rgb(172, 172, 172);
+}
+.header-container:hover{
+  background-color: rgb(102, 102, 102);
+}
+
 
 /* Parent lvl 2 */
 header > nav{
@@ -47,11 +58,12 @@ header > nav{
     height: 36px;
     background: linear-gradient(
         to bottom,
-        rgb(121, 121, 121) 5%,
-        rgb(107, 107, 107) 51%,
-        rgb(128, 128, 128) 55%,
-        rgb(134, 134, 134) 94%
-    );
+        rgb(114, 109, 109) 8%,
+        rgb(87, 86, 86) 40%,
+        rgb(93, 92, 92) 50%,
+        rgb(107, 107, 107) 53%,
+        rgb(134, 134, 134) 95%
+    ); 
     border-radius: 4px;
     /* csslint ignore:start */
     border: 1px solid rgb(109, 109, 109);
@@ -82,6 +94,11 @@ header > nav{
     1px 1px 1px rgba(66, 66, 66, 0.651);
     cursor: pointer;
     text-align: center;
+}
+
+.first-8:hover {
+    background: gray;
+    background: rgb(0, 0, 0, 0.4);
 }
 
 /* Childs lvl 4*/
@@ -146,6 +163,20 @@ header > nav{
     cursor: default;
 } 
 /* ------------------------------------------------- */
+
+
+/* Parent lvl 2 */
+.header-txt-container{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+}
 
 
 /* Parent lvl 1*/
