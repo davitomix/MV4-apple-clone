@@ -26,8 +26,20 @@ body{
     "Lucida Sans Regular", Geneva, Verdana, sans-serif;
 }
 
+/* -------------------------------------------------------------- */
+/* --------------------------- HEADER --------------------------- */
+/* -------------------------------------------------------------- */
 /* Parent lvl 1*/
+/* Child lvl 0 */
 header{
+    height: 538px;
+    width: 1349px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-bck-gnd{
+    float: left;
     height: 538px;
     width: 1349px;
     margin-left: auto;
@@ -45,24 +57,25 @@ header{
   background-color: rgb(102, 102, 102);
 }
 
-
 /* Parent lvl 2 */
+/* Child lvl 1 */
 header > nav{
     position: absolute;
-    top: 82px;
+    top: 83px;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     width: 980px;
     height: 36px;
+    /* Background Gradient */
     background: linear-gradient(
         to bottom,
         rgb(114, 109, 109) 8%,
         rgb(87, 86, 86) 40%,
         rgb(93, 92, 92) 50%,
         rgb(107, 107, 107) 53%,
-        rgb(134, 134, 134) 95%
+        rgb(144, 144, 144) 95%
     ); 
     border-radius: 4px;
     /* csslint ignore:start */
@@ -72,6 +85,7 @@ header > nav{
 }
 
 /* Parent lvl 3*/
+/* Child lvl 2 */
 .header-nav-ul{
     align-items: center;
     display: flex;
@@ -106,7 +120,8 @@ header > nav{
 .h-nav-item:first-of-type > span
 {
     position: relative;
-    top: 4.5px;
+    top: 5.5px;
+    right: 2.5px;
 }
 
 .h-nav-item  > span {
@@ -164,21 +179,90 @@ header > nav{
 } 
 /* ------------------------------------------------- */
 
-
 /* Parent lvl 2 */
+/* Child lvl 1 */
 .header-txt-container{
     position: absolute;
-    top: 200px;
+    top: 160px;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
-    width: 250px;
-    background-color: blue;
+    height: 300px;
+    width: 980px;
+    background-color: transparent;
 }
 
+/* Child lvl 2 */
+.h-txt-1{
+    height: 80px;
+    width: 100%;
+    /* background-color: rgb(83, 110, 90); */
+    /* Background IMG */
+    background: url("./assets/whatwill.png");
+    background-repeat: no-repeat;
+    background-position: 50% -11px;
 
+    display: block;
+}
+.h-txt-1:hover{
+    cursor: pointer;
+}
+
+/* Child lvl 2 */
+.h-txt-2{
+    height: 90px;
+    width: 100%;
+    /* background-color: rgb(127, 168, 138); */
+    /* Background IMG */
+    background: url("./assets/everyone.png");
+    background-repeat: no-repeat;
+    background-position: 50% 3px;
+    display: block;
+    margin-top: 1px;
+}
+.h-txt-2:hover{
+    cursor: pointer;
+}
+
+/* Child lvl 2 */
+.h-txt-3{
+    height: 33px;
+    width: 100%;
+    /* background-color: rgb(173, 219, 186); */
+    /* Background IMG */
+    background: url("./assets/watch.png");
+    background-repeat: no-repeat;
+    background-position: 50% -2%;
+    display: block;
+    margin-top: 22px;
+}
+.h-txt-3:hover{
+    height: 33px;
+    width: 100%;
+    /* background-color: rgb(173, 219, 186); */
+    /* Background IMG */
+    background: url("./assets/watch.png");
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    cursor: pointer;
+}
+
+/* Child lvl 2 */
+.h-txt-4{
+    height: 75px;
+    width: 100%;
+    background-color: transparent;
+}
+/* -------------------------------------------------------------- */
+/* --------------------------- HEADER --------------------------- */
+/* -------------------------------------------------------------- */
+
+
+
+/* -------------------------------------------------------------- */
+/* ---------------------------- ASIDE --------------------------- */
+/* -------------------------------------------------------------- */
 /* Parent lvl 1*/
 aside{
     background-color: rgb(223, 169, 99);
@@ -187,6 +271,15 @@ aside{
     margin: 0 auto;
 }
 
+/* -------------------------------------------------------------- */
+/* ---------------------------- ASIDE --------------------------- */
+/* -------------------------------------------------------------- */
+
+
+
+/* -------------------------------------------------------------- */
+/* --------------------------- FOOTER --------------------------- */
+/* -------------------------------------------------------------- */
 /* Parent lvl 1*/
 footer{
     background-color: rgb(221, 158, 76);
@@ -195,7 +288,9 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
-
+/* -------------------------------------------------------------- */
+/* --------------------------- FOOTER --------------------------- */
+/* -------------------------------------------------------------- */
 
 
 
