@@ -16,7 +16,7 @@
 
 /* Parent lvl 0 or Master Parent */
 body{
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     min-width: 1349px;
     min-height: 833px;
     width: 100%;
@@ -265,7 +265,7 @@ header > nav{
 /* -------------------------------------------------------------- */
 /* Parent lvl 1*/
 aside{
-    background-color: rgb(99, 223, 147);
+    background-color: rgb(255, 255, 255);
     height: 200px;
     width: 1349px;
 
@@ -276,7 +276,7 @@ aside{
 }
 
 aside:hover{
-    background-color: rgb(33, 128, 25);
+    background-color: rgb(255, 255, 255);
 }
 
 /* Parent lvl 2 */
@@ -334,7 +334,7 @@ aside:hover{
 /* -------------------------------------------------------------- */
 /* Parent lvl 1*/
 footer{
-    background-color: rgb(221, 158, 76);
+    /* background-color: rgb(221, 158, 76); */
     height: 95px;
     width: 1024px;
 
@@ -354,7 +354,7 @@ footer{
 .foot-box{
     background-color: rgb(255, 255, 255);
     /* csslint ignore:start */
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* csslint ignore:end */
     height: 50%;
     width: 50%;  
