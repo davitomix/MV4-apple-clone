@@ -242,7 +242,7 @@ header > nav{
     width: 100%;
     /* background-color: rgb(173, 219, 186); */
     /* Background IMG */
-    background: url("./assets/watch.png");
+    background: url("./assets/watch2.png");
     background-repeat: no-repeat;
     background-position: 50% 100%;
     cursor: pointer;
@@ -353,7 +353,9 @@ footer{
 /* Child lvl 1 */
 .foot-box{
     background-color: rgb(255, 255, 255);
+    /* csslint ignore:start */
     border: 1px solid black;
+    /* csslint ignore:end */
     height: 50%;
     width: 50%;  
 }
@@ -405,7 +407,7 @@ footer{
     border: 0;
 }
 
-#eua-icon{
+.eua-icon{
     height: 16px;
     width: 16px;
     border: 0;
